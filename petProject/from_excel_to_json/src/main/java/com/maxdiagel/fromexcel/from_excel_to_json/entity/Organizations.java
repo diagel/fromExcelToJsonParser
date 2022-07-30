@@ -19,7 +19,6 @@ public class Organizations {
             throw new RuntimeException(e);
         }
     }
-
     public static Organization get(String organizationString){
 
         Organization organization = new Organization(organizationString);

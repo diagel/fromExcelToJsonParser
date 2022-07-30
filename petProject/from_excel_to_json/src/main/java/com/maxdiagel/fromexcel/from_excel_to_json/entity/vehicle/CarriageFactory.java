@@ -1,7 +1,6 @@
 package com.maxdiagel.fromexcel.from_excel_to_json.entity.vehicle;
 
 public class CarriageFactory {
-    // the pattern factory is here
     public static Carriage getCarriage(String number, VehicleType type){
         Carriage carriage = null;
 

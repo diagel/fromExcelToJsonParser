@@ -20,7 +20,6 @@ import java.util.Iterator;
 import java.util.List;
 
 public class FacadeBigFromExcelToJsonListConverter {
-    //1
     public static List<String> convert(String url) throws IOException {
         List<Consignment> consignments = getConsignments(url);
         List<String> jsons = ConsignmentConverter.convertConsignmentsToStrings(consignments);

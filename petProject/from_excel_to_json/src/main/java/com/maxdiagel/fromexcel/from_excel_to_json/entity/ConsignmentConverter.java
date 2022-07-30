@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConsignmentConverter {
-
-
-
     public static String convertSingleStringToJson(Consignment consignment){
         ObjectMapper objectMapper = new ObjectMapper();
         String returnedString = null;
@@ -20,7 +17,6 @@ public class ConsignmentConverter {
         }
         return returnedString;
     }
-
     public static List<String> convertConsignmentsToStrings(List<Consignment> consignments){
         List<String> jsonStrings = new ArrayList<>();
 

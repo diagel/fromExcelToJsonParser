@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class AddressMaker {
-    // the pattern flyweight is here
     private static List<Address> addresses;
     static {
         addresses = new ArrayList<>();
